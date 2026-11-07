@@ -1,0 +1,16 @@
+
+{
+  "name": "nexus-op",
+  "version": "1.0.0",
+  "description": "NEXUS OPS - Cloud Infrastructure Management Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
