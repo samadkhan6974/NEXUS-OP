@@ -1,0 +1,7 @@
+﻿services:
+  nexus-ops:
+    build: .
+    container_name: nexus-ops-container
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
