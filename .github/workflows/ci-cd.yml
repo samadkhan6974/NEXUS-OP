@@ -1,4 +1,4 @@
-﻿name: NEXUS OPS CI/CD
+name: NEXUS OPS CI/CD
 
 on:
   push:
@@ -26,3 +26,5 @@ jobs:
 
       - name: Build Docker Image
         run: docker build -t nexus-ops .
+
+
